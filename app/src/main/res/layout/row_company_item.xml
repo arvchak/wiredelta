@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sdfjsgkljlfdkgjldfkgjdlfgjldk"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_below="@+id/started"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fkjsgkdlfgdfklgjdlgjdlfkgjldkfgjflsgjlkfj lsnfgljdfgljdflgkjfdlg sdlgkjdflkgjfdlkgjdlgk fldkgjdlfkgjdflkgjfdl"/>
+
+
+
+        <TextView
+            android:id="@+id/started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:gravity="right"
+            android:textSize="10sp"
+            android:text="Active since 2011"
+            />
+
+        <TextView
+            android:id="@+id/founder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/started"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="10sp"
+            android:text="Founded by owner"
+            />
+
+
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@+id/description"
+            android:layout_marginBottom="8dp"
+            android:maxEms="20"
+            android:textSize="10sp"
+            android:text="dsdsds , sdsdsds ,sdsds , sdsadasa , asdsada , sdslfjdsgjfdlgjldkgjldk, ,"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
